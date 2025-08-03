@@ -17,7 +17,7 @@ const Toggle = () => {
   return (
     <section style={{backgroundColor, color: textColor}}>
         <button className='btn' onClick={handleclick} style={{backgroundColor , color: textColor, border:`2px solid ${textColor}`}}>
-            {backgroundColor=="#1b1b1b"?"Dark Theme":"White Theme"}
+            {backgroundColor=="#1b1b1b"?"Dark Theme":"Light Theme"}
         </button>
 
         <section className="content">
